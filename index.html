@@ -4,39 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Anjali Patil</h1>
-        <navbar>
+        <navbar> 
+            <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects and Experiences</a></li>
+            <li><a href="#projects">My Experiences</a></li>
             <li><a href="#contact">Contact me</a></li>
+            <li style="float:left"><a class="active" href="#about">Anjali Patil</a></li>
+        </ul>
         </navbar>
     </header>
     <section id="about">
+        <div>
         <h2>About Me</h2>
-        <p>This is a brief description about me.</p>
-    </section>
+        <article>
+        Hey! My name is Anjali Patil and I'm a computer science student at NMIMS, Mumbai.<br> 
+        I'm a web developer and a cybersecurity enthusiast. <br>
+        I like to read books and listen to music ❤️
+        <img src="anjali.jpeg" alt="picture" width="200" height="200" >
+        </article>
+        </div>   
+        </section>
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>My Experiences</h2>
         <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
+            <h3>MUNSociety MPSTME</h3>
+            <p>In my first year, I was an executive in the Tech Department at MUNSociety. </p>
         </div>
         <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
+            <h3>Cyber Cypher</h3>
+            <p>I participated in the Cyber Cypher hackathon. It was my first ever hackathon. 
+                The theme was UI/UX and we had to create a unique solution for a medical organisation.
+            </p>
         </div>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at: <a href="mailto:anjali2005.patil@gmail.com">anjali2005.patil@gmail.com</a></p>
+        <h2>My socials</h2>
+        <p>You can reach me at: </p>
+            <ul>
+                <li><a href="https://github.com/anjalipatil15" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.instagram.com/anjupatil_15/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/anjali-patil-0563a9280" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="mailto:anjali2005.patil@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+            </ul>
     </section>
     <footer>
         <p>&copy; 2024 My Portfolio</p>
+        <p>Anjali Patil</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
